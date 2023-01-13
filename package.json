@@ -1,0 +1,34 @@
+{
+    "name": "textlint-rule-super-simple-sample",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/hirokinoue/textlint-rule-super-simple-sample.git"
+    },
+    "author": "hirokinoue",
+    "homepage": "https://github.com/hirokinoue/textlint-rule-super-simple-sample",
+    "license": "MIT",
+    "files": [
+      "src/",
+      "lib/"
+    ],
+    "version": "1.0.0",
+    "description": "textlint rule that detects 'ハイ！'.",
+    "main": "lib/super-simple-sample.js",
+    "directories": {
+      "test": "test"
+    },
+    "scripts": {
+      "build": "textlint-scripts build",
+      "test": "textlint-scripts test",
+      "prepublish": "npm run --if-present build",   
+      "watch": "textlint-scripts build --watch"
+    },
+    "keywords": [
+      "textlint",
+      "textlintrule"
+    ],
+    "devDependencies": {
+      "textlint-scripts": "^12.5.0",
+      "textlint-tester": "^12.5.0"
+    }
+}
