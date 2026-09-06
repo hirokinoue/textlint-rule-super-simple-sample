@@ -1,2 +1,16 @@
 node_modules
 /lib
+.idea
+.tool-versions
+.claude/settings.local.json
+
+# IDE/editor directories
+.vscode
+.vs
+.settings
+.project
+.classpath
+.metadata
+nbproject
+*.sublime-project
+*.sublime-workspace
