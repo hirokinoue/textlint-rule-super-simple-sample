@@ -28,7 +28,7 @@
       "textlintrule"
     ],
     "devDependencies": {
-      "textlint-scripts": "^12.5.0",
-      "textlint-tester": "^12.5.0"
+      "textlint-scripts": "^15.8.0",
+      "textlint-tester": "^15.8.0"
     }
 }
